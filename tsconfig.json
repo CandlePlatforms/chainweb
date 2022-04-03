@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./src",
+    "checkJs": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "types": ["@nuxt/types", "@types/node", "@types/aos", "@inkline/nuxt"]
+  },
+  "include": ["./src/{**/*,*}.{js,ts,vue}", "nuxt.config.ts"],
+  "exclude": ["src/assets/images", "src/assets/fonts", "src/static", "node_modules", ".nuxt", "public", ".husky", "dist", ".nuxt", ".github", ".yarn", "tests"]
+}

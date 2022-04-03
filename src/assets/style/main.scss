@@ -1,0 +1,34 @@
+// Core
+@import "./variables";
+@import "./default";
+@import "./basic";
+@import "./transitions";
+@import "./fonts";
+@import "./aos";
+
+//zk
+@import "./zkDS/base";
+@import "./zkDS/table";
+
+//Layouts
+@import "./layouts/default";
+
+//Blocks
+@import "./blocks/header";
+@import "./blocks/footer";
+@import "./blocks/logo";
+@import "./blocks/investors";
+@import "./blocks/socialBlock";
+@import "./blocks/newsletter";
+@import "./blocks/reviewsSlider";
+@import "./blocks/codeBlock";
+
+//Components
+@import "./components/loader";
+@import "./components/dropdownBlock";
+@import "./components/emphasis";
+@import "./components/partners";
+
+//Pages
+@import "./pages/index";
+@import "./pages/404";

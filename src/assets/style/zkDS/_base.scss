@@ -1,0 +1,57 @@
+/**
+ * Text styling
+ */
+
+//styleName: h0;
+.zkHeader0 {
+  font-family: $grotesk;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.zkSubHeader {
+  //styleName: Subheading;
+  font-family: $openSans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.zkSubHeader2 {
+  //styleName: Subheading 2;
+  font-family: $openSans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.zkSubHeader3 {
+  font-family: $grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.zkHeader3 {
+  //styleName: h3;
+  font-family: $openSans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
